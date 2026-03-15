@@ -42,9 +42,9 @@ function Stats() {
           />
 
           <div className="text-center">
-            <a href="" className="mx-5" style={{textDecoration:"none"}}>Explore Our Products</a>
+            <a href="https://www.google.com" className="mx-5" style={{textDecoration:"none"}}>Explore Our Products</a>
 
-            <a href="" style={{textDecoration:"none"}}>The Kite demo</a>
+            <a href="https://www.youtube.com" style={{textDecoration:"none"}}>The Kite demo</a>
           </div>
         </div>
       </div>

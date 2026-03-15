@@ -4,7 +4,7 @@ function Education() {
     <div className="container mt-3">
       <div className="row">
         <div className="col-6">
-         <img src="media/images/education.svg"/>
+         <img src="media/images/education.svg" alt="education"/>
         </div>
 
        
@@ -15,13 +15,13 @@ function Education() {
             We pioneered the concept of discount booking and price transparancy
             in Nepal. Flat fees and no hidden chargges
           </p>
-          <a href="">Versity</a>
+          <a href="https://www.youtube.com">Versity</a>
 
           <p>
             We pioneered the concept of discount booking and price transparancy
             in Nepal. Flat fees and no hidden chargges
           </p>
-          <a href="">TradingQ&A</a>
+          <a href="https://www.github.com">TradingQ&A</a>
         </div>
       </div>
     </div>

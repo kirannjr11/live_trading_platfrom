@@ -9,7 +9,7 @@ function Pricing() {
             We pioneered the concept of discount booking and price transparancy
             in Nepal. Flat fees and no hidden chargges
           </p>
-          <a href="">See Pricing</a>
+          <a href="https://www.google.com">See Pricing</a>
         </div>
         <div className="col-2"></div>
         <div className="col-6">
