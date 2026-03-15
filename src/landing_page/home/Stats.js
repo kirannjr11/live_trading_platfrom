@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Stats() {
   return (
@@ -42,7 +43,7 @@ function Stats() {
           />
 
           <div className="text-center">
-            <a href="https://www.google.com" className="mx-5" style={{textDecoration:"none"}}>Explore Our Products</a>
+            <Link to="/product" className="mx-5" style={{textDecoration:"none"}}>Explore Our Products</Link>
 
             <a href="https://www.youtube.com" style={{textDecoration:"none"}}>The Kite demo</a>
           </div>

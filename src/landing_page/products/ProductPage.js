@@ -1,22 +1,26 @@
 import React from 'react'
 
 import Hero from "./Hero";
-import Brokerage from "./Brokerage";
+import LeftSection from "./LeftSection";
+import RightSection from "./RightSection";
+import Universe from "./Universe";
 
 import Navbar from "../Navbar";
 import OpenAccount from "../OpenAccount";
 import Footer from "../Footer";
 
-function PricingPage() {
+function ProductPage() {
     return (
         <>
         <Navbar />
         <Hero />
-        <Brokerage />
+        <LeftSection />
+        <RightSection />
+        <Universe />
         <OpenAccount />
         <Footer />
         </>
     );
 }
 
-export default PricingPage;
+export default ProductPage;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 function Pricing() {
   return (
     <div className="container">
@@ -9,7 +10,7 @@ function Pricing() {
             We pioneered the concept of discount booking and price transparancy
             in Nepal. Flat fees and no hidden chargges
           </p>
-          <a href="https://www.google.com">See Pricing</a>
+          <Link to="/pricing">See Pricing</Link>
         </div>
         <div className="col-2"></div>
         <div className="col-6">

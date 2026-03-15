@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-light border-top pt-5 pb-3 mt-5">
@@ -8,10 +10,10 @@ const Footer = () => {
 
           {/* Brand + social */}
           <div className="col-lg-3 col-md-6 mb-4">
-            <a className="navbar-brand fw-bold text-primary fs-4 mb-3 d-block" href="https://www.google.com">
+            <Link className="navbar-brand fw-bold text-primary fs-4 mb-3 d-block" to="/">
               <i className="bi bi-graph-up-arrow me-2"></i>
               ZERODHA
-            </a>
+            </Link>
             <p className="text-muted small">
               &copy; 2010 - 2026, Zerodha Broking Ltd.<br />All rights reserved.
             </p>
@@ -56,7 +58,7 @@ const Footer = () => {
             <ul className="list-unstyled">
               {["Open demat account","Minor demat account","NRI demat account","HUF demat account","Commodity","Dematerialisation","Fund transfer","MTF"].map(item => (
                 <li key={item} className="mb-2">
-                  <a href="https://www.google.com" className="text-muted text-decoration-none small">{item}</a>
+                  <a href="#" className="text-muted text-decoration-none small">{item}</a>
                 </li>
               ))}
             </ul>
@@ -68,7 +70,7 @@ const Footer = () => {
             <ul className="list-unstyled">
               {["Contact us","Support portal","How to file a complaint?","Status of your complaints","Bulletin","Circular","Z-Connect blog","Downloads"].map(item => (
                 <li key={item} className="mb-2">
-                  <a href="https://www.google.com" className="text-muted text-decoration-none small">{item}</a>
+                  <a href="#" className="text-muted text-decoration-none small">{item}</a>
                 </li>
               ))}
             </ul>
@@ -80,7 +82,7 @@ const Footer = () => {
             <ul className="list-unstyled">
               {["About","Philosophy","Press & media","Careers","Zerodha Cares (CSR)","Zerodha.tech","Open source","Referral program"].map(item => (
                 <li key={item} className="mb-2">
-                  <a href="https://www.google.com" className="text-muted text-decoration-none small">{item}</a>
+                  <a href="#" className="text-muted text-decoration-none small">{item}</a>
                 </li>
               ))}
             </ul>
@@ -92,7 +94,7 @@ const Footer = () => {
             <ul className="list-unstyled">
               {["Upcoming IPOs","Brokerage charges","Market holidays","Economic calendar","Calculators","Markets","Sectors","Gift Nifty"].map(item => (
                 <li key={item} className="mb-2">
-                  <a href="https://www.google.com" className="text-muted text-decoration-none small">{item}</a>
+                  <a href="#" className="text-muted text-decoration-none small">{item}</a>
                 </li>
               ))}
             </ul>
@@ -108,16 +110,16 @@ const Footer = () => {
             Investments in securities market are subject to market risks; read all the related documents carefully before investing.
           </p>
           <p className="text-muted small">
-            <a href="https://www.google.com" className="text-primary text-decoration-none">Smart Online Dispute Resolution</a>
+            <a href="#" className="text-primary text-decoration-none">Smart Online Dispute Resolution</a>
             {" | "}
-            <a href="https://www.google.com" className="text-primary text-decoration-none">Grievances Redressal Mechanism</a>
+            <a href="#" className="text-primary text-decoration-none">Grievances Redressal Mechanism</a>
           </p>
         </div>
 
         {/* Bottom bar */}
         <div className="border-top pt-3 d-flex flex-wrap justify-content-center gap-3">
           {["NSE","BSE","MCX","Terms & conditions","Policies & procedures","Privacy policy","Disclosure","For investor's attention","Investor charter"].map(item => (
-            <a key={item} href="https://www.google.com" className="text-muted text-decoration-none small">{item}</a>
+            <a key={item} href="#" className="text-muted text-decoration-none small">{item}</a>
           ))}
         </div>
 
